@@ -33,7 +33,7 @@ public class Game extends SimpleApp {
 		for (int i = 0; i < buildings.length; i++) {
 			buildings[i].draw(gc);
 		}
-		
+		//No. Just set the cannon's angle or angleSpeed. The cannon then uses the angle when drawing itself.
 		if (hi == true) {
 			c.rotate(gc);
 			hi = false;
